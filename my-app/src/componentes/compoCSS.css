@@ -1,0 +1,13 @@
+.ParaParagrafos{
+    background-color: aqua;
+    font: 12;
+    color: blueviolet;
+}
+.componentes{
+    background-color: rgba(179, 144, 100, 0.733);
+    color: yellow;
+}
+.letras{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 12;
+}

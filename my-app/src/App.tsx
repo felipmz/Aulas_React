@@ -1,21 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
+import Coisa from './componentes/Coisa'
+import PropsTeste from './componentes/PropsTeste'
+
 function App() {
-  const [count, setCount] = useState(0)
-
-  const url:string = "https//:youtube.com";
-
 
   return (
     <>
-    
-
       <div className="card">
           <h1>Ola mundo em react</h1>
-          <img src={url} alt="imagem" />
+          <Coisa/>
+          <PropsTeste nome={"felipe"} idade={12}/>
       </div>
     </>
   )
